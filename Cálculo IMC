@@ -1,0 +1,13 @@
+imc = 0
+alt = 0
+kg = 0
+
+alt = input("Insira a altura da pessoa em metros: ")
+alt = float(alt)
+
+kg = input("Insira o peso em quilos da pessoa: ")
+kg = float(kg)
+
+imc = ((kg) / (alt*alt))
+imc = float(imc)
+print(f"O IMC da pessoa é {imc}!")
